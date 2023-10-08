@@ -101,6 +101,7 @@ public class BoardController {
 	public String boardWriteDo5(Board board) {
 		log.info("board >> {}", board);
 		boardService.write(board);
-		return "";
+		//return "boardwrite5";
+		return "login";
 	}
 }
