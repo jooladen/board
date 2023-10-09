@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 리스트 페이지</title>
+    <style>
+    	.layout{
+    		width: 500px;
+    		margin: 0 auto;
+    		margin-top: 40px;
+    	}
+    	
+    </style>
+</head>
+<body>
+    <div class="layout">
+    	<table>
+    		<thead>
+    			<tr>
+    				<th>글번호</th>
+    				<th>제목</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    			<tr th:each="boardlist : ${list}">
+    				<td th:text="${boardlist.id}">1</td>
+    				<td th:text="${boardlist.title}">제목입니다.</td>
+    				<td th:text="${boardlist.content}"></td>
+    			</tr>
+    		</tbody>
+    	</table>
+    </div>
+    
+    
+</body>
+</html>

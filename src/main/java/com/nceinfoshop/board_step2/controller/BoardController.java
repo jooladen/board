@@ -2,6 +2,7 @@ package com.nceinfoshop.board_step2.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -28,6 +29,13 @@ public class BoardController {
 	@GetMapping("/")
 	public String main() {
 		return "login";
+	}
+	
+	@GetMapping("/board/list")
+	public String boardList(Model model) {
+		model.addAttribute("list", boardService.boardList());
+		
+		return "boardlist";
 	}
 	
 	@GetMapping("/board/write")
