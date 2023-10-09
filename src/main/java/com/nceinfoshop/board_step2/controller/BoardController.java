@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.nceinfoshop.board_step2.dto.BoardForm;
@@ -43,6 +44,14 @@ public class BoardController {
 		
 		return "boardwrite";
 	}
+	
+	@GetMapping("/board/view")
+	public String boardView(Model model, 
+			@RequestParam(defaultValue="100") Long id) {
+		model.addAttribute("boardDetail", boardService.boardView(id));
+		return "boardview";
+	}
+	
 	//일반변수 값 넘기기
 	@PostMapping("/board/writedo")
 	public String boardWriteDo(String title, String content) {
