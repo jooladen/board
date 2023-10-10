@@ -4,17 +4,18 @@
   </a>
 </p>
 
+<hr>
 <p>전자정부4.1</p>
 <p>jdk : 17</p>
-spring boot :3.1.4
-maven
-my-sql 5.7(docker)
-JPA
-thymeleaf
-lombok + lombok의 @Slf4j 기능
+<p>spring boot :3.1.4</p>
+<p>maven</p>
+<p>my-sql 5.7(docker)</p>
+<p>JPA</p>
+<p>thymeleaf</p>
+<p>lombok + lombok의 @Slf4j 기능</p>
 
-
-CRUD게시판
+<hr>
+<p>CRUD게시판</p>
 
 board  
 study용 최소 버전 CRUD중 C만
