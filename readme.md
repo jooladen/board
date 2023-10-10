@@ -3,8 +3,9 @@
   	<img alt="spring logo" src="https://github.com/jooladen/board/blob/development/images/newlogo.jpg?raw=true">
   </a>
 </p>
-전자정부4.1
-jdk : 17
+
+<p>전자정부4.1</p>
+<p>jdk : 17</p>
 spring boot :3.1.4
 maven
 my-sql 5.7(docker)
