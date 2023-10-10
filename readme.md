@@ -1,6 +1,6 @@
 <p align="center">
   <a href ="##">
-  	<img alt="spring_vue" src="https://github.com/jooladen/board/blob/development/images/newlogo.jpg?raw=true">
+  	<img alt="spring logo" src="https://github.com/jooladen/board/blob/development/images/newlogo.jpg?raw=true">
   </a>
 </p>
 전자정부4.1
@@ -26,6 +26,13 @@ board_step2에서 필요없는 클래스와 관계 제거(아래 그림 참조)
 
 board_step3
 CRUD + Paging
+
+
+<p align="center">
+  <a href ="##">
+  	<img alt="variable_guide" 	src="https://github.com/jooladen/board/blob/development/images/variable_guide.png?raw=true">
+ </a>
+</p>
 
 <p align="center">
   <a href ="##">
