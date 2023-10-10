@@ -17,6 +17,7 @@
     	<p th:text="${boardDetail.id}"></p>
     	<h1 th:text="${boardDetail.title}"></h1>
     	<p th:text="${boardDetail.content}"></p>
+    	<a th:href="@{/board/delete(id=${boardDetail.id})}">글삭제</a>
     </div>
     
     

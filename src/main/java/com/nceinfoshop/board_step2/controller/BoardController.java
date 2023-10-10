@@ -52,13 +52,19 @@ public class BoardController {
 		return "boardview";
 	}
 	
+	@GetMapping("/board/delete")
+	public String boardDelete(Long id) {
+		boardService.boardDelete(id);
+		return "redirect:/board/list";
+	}
+	
 	//일반변수 값 넘기기
 	@PostMapping("/board/writedo")
 	public String boardWriteDo(String title, String content) {
 		System.out.println("title >>> " + title);
 		System.out.println("content >>> " + content);
 		
-		return "";
+		return "redirect:/";
 	}
 	
 	@GetMapping("/board/write2")
@@ -71,7 +77,7 @@ public class BoardController {
 	public String boardWriteDo2(BoardForm form) {
 		System.out.println(form);
 		
-		return "";
+		return "redirect:/";
 	}
 	
 	@GetMapping("/board/write3")
@@ -86,7 +92,7 @@ public class BoardController {
 		log.info("form >>> ", form);
 		log.info("form >>> {}", form);
 		
-		return "";
+		return "redirect:/";
 	} 
 	
 	@GetMapping("/board/write4")
@@ -105,7 +111,7 @@ public class BoardController {
 		//log.debug는 안나옴
 		log.debug("board >> {}", board.getContent());
 		log.info("board >> {}", board.getContent());
-		return "";
+		return "redirect:/";
 	}
 	
 	@GetMapping("/board/write5")
@@ -118,7 +124,7 @@ public class BoardController {
 	public String boardWriteDo5(Board board) {
 		log.info("board >> {}", board);
 		boardService.write(board);
-		//return "boardwrite5";
-		return "login";
+		return "redirect:/";
 	}
 }
+
