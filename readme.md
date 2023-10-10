@@ -29,6 +29,6 @@ CRUD + Paging
 
 <p align="center">
   <a href ="##">
-  	<img alt="uml" src="https://github.com/boylegu/SpringBoot-vue/blob/development/images/classdiagram.png?raw=true">
+  	<img alt="uml" 	src="https://github.com/jooladen/board/blob/development/images/classdiagram.png?raw=true">
  </a>
 </p>
