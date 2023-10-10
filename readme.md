@@ -1,6 +1,6 @@
 <p align="center">
   <a href ="##">
-  	<img alt="spring_vue" src="https://github.com/boylegu/SpringBoot-vue/blob/master/images/newlogo.jpg?raw=true">
+  	<img alt="spring_vue" src="https://github.com/jooladen/board/blob/development/images/newlogo.jpg?raw=true">
   </a>
 </p>
 전자정부4.1
@@ -13,6 +13,7 @@ thymeleaf
 lombok + lombok의 @Slf4j 기능
 
 CRUD게시판
+
 board  
 study용 최소 버전 CRUD중 C만
 
