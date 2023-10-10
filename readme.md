@@ -1,5 +1,5 @@
 <p align="center">
-  <a href ="##">
+  <a href ="https://niceinfoshop.com/contact">
   	<img alt="spring logo" src="https://github.com/jooladen/board/blob/development/images/newlogo.jpg?raw=true">
   </a>
 </p>
@@ -31,13 +31,13 @@ CRUD + Paging
 
 
 <p align="center">
-  <a href ="##">
-  	<img alt="variable_guide" 	src="https://github.com/jooladen/board/blob/development/images/variable_guide.png?raw=true">
+  <a href ="https://niceinfoshop.com/contact">
+  	<img alt="variable_guide" 	src="https://github.com/jooladen/board/blob/development/images/variable_guide.png" height="10" width="50">
  </a>
 </p>
 
 <p align="center">
-  <a href ="##">
+  <a href ="https://niceinfoshop.com/contact">
   	<img alt="uml" 	src="https://github.com/jooladen/board/blob/development/images/classdiagram.png?raw=true">
  </a>
 </p>
