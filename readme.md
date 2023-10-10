@@ -31,8 +31,8 @@ CRUD + Paging
 
 
 <p align="center">
-  <a href ="https://niceinfoshop.com/contact">
-  	<img alt="variable_guide" 	src="https://github.com/jooladen/board/blob/development/images/variable_guide.png?raw=true"  target="_blank">
+  <a href ="https://niceinfoshop.com/contact" target="_blank">
+  	<img alt="variable_guide" 	src="https://github.com/jooladen/board/blob/development/images/variable_guide.png?raw=true">
  </a>
 </p>
 
