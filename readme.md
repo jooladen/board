@@ -12,6 +12,7 @@ JPA
 thymeleaf
 lombok + lombok의 @Slf4j 기능
 
+
 CRUD게시판
 
 board  
@@ -21,12 +22,10 @@ board_step2
 CRUD버전
 
 board_step1 
-board_step2에서 필요없는 클래스와 관계 제거
-UML폴더 그림 참조
+board_step2에서 필요없는 클래스와 관계 제거(아래 그림 참조)
 
 board_step3
 CRUD + Paging
-
 
 <p align="center">
   <a href ="##">
